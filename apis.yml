@@ -1,20 +1,97 @@
 aid: rive
 name: Rive
-description: Rive is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
+description: >-
+  Rive is an interactive design and animation platform and real-time graphics
+  engine that lets designers, animators, and developers create, animate, and
+  code interactive experiences in one place and ship them across every platform.
+  Built around a State Machine design system and a GPU-accelerated vector
+  renderer that draws at up to 120fps, Rive exports a single lightweight .riv
+  file that is driven at runtime by open-source (MIT) native runtimes for Web,
+  React, React Native, Flutter, iOS, Android, macOS, Unity, Unreal, and C++.
+  Rive powers interactive UI, animation, and product experiences at companies
+  including Spotify, Duolingo, Disney, and Google, reaching over 2 billion
+  users. Rather than a hosted REST API, Rive's developer surface is its family
+  of first-party runtime SDKs plus data binding, Luau scripting, and a CDN for
+  share and embed hosting.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/rive-app.png
 url: https://raw.githubusercontent.com/api-evangelist/rive/refs/heads/main/apis.yml
+humanURL: https://rive.app
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pass-completed
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Graphics
+- Animation
+- Design
+- Interactive
+- Runtime
+- Vector Graphics
+- Game Development
+- Rendering
+- SDK
+- WebAssembly
+- State Machine
 apis: []
+common:
+- type: DomainSecurity
+  url: security/rive-domain-security.yml
+- type: Website
+  url: https://rive.app
+- type: DeveloperPortal
+  url: https://rive.app/docs
+- type: Documentation
+  url: https://rive.app/docs
+- type: APIReference
+  url: https://rive.app/docs/runtimes
+- type: GettingStarted
+  url: https://rive.app/docs/getting-started/introduction
+- type: GitHubOrganization
+  url: https://github.com/rive-app
+- type: Blog
+  url: https://rive.app/blog
+- type: Support
+  url: https://community.rive.app/
+- type: Community
+  url: https://discord.com/invite/FGjmaTr
+- type: Marketplace
+  url: https://rive.app/marketplace
+- type: Pricing
+  url: https://rive.app/pricing
+- type: SignUp
+  url: https://editor.rive.app
+- type: TermsOfService
+  url: https://rive.app/docs/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://rive.app/docs/legal/privacy-policy
+- type: Packages
+  url: packages/rive-packages.yml
+- type: SDKs
+  url: packages/rive-packages.yml
+- type: LLMsTxt
+  url: llms/rive-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

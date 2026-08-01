@@ -1,0 +1,117 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/rive-app + registry verification (npm/pub.dev/CocoaPods/Maven Central)
+notes: >-
+  Rive has no hosted REST API. Its developer surface is a family of first-party,
+  open-source (MIT) runtime SDKs that load and drive .riv files at runtime.
+  Every package below was verified live against its registry on 2026-07-21.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@rive-app/canvas"
+    url: https://www.npmjs.com/package/@rive-app/canvas
+    install: npm install @rive-app/canvas
+    version: 2.38.5
+    official: true
+    description: High-level JS/Wasm Web runtime (Canvas2D renderer).
+  - language: javascript
+    registry: npm
+    name: "@rive-app/webgl"
+    url: https://www.npmjs.com/package/@rive-app/webgl
+    install: npm install @rive-app/webgl
+    version: 2.37.0
+    official: true
+    description: High-level JS/Wasm Web runtime (WebGL renderer).
+  - language: javascript
+    registry: npm
+    name: "@rive-app/canvas-advanced"
+    url: https://www.npmjs.com/package/@rive-app/canvas-advanced
+    install: npm install @rive-app/canvas-advanced
+    version: 2.38.5
+    official: true
+    description: Low-level advanced Canvas Web runtime for custom render loops.
+  - language: javascript
+    registry: npm
+    name: "@rive-app/webgl-advanced"
+    url: https://www.npmjs.com/package/@rive-app/webgl-advanced
+    install: npm install @rive-app/webgl-advanced
+    version: 2.37.0
+    official: true
+    description: Low-level advanced WebGL Web runtime.
+  - language: javascript
+    registry: npm
+    name: "@rive-app/react-canvas"
+    url: https://www.npmjs.com/package/@rive-app/react-canvas
+    install: npm install @rive-app/react-canvas
+    version: 4.29.5
+    official: true
+    description: React runtime (Canvas2D) with the useRive hook.
+  - language: javascript
+    registry: npm
+    name: "@rive-app/react-webgl2"
+    url: https://www.npmjs.com/package/@rive-app/react-webgl2
+    install: npm install @rive-app/react-webgl2
+    version: 4.29.5
+    official: true
+    description: React runtime (WebGL2 renderer).
+  - language: javascript
+    registry: npm
+    name: "@rive-app/react-native"
+    url: https://www.npmjs.com/package/@rive-app/react-native
+    install: npm install @rive-app/react-native
+    version: 0.4.19
+    official: true
+    description: React Native runtime (new architecture / TurboModules).
+  - language: javascript
+    registry: npm
+    name: rive-react-native
+    url: https://www.npmjs.com/package/rive-react-native
+    install: npm install rive-react-native
+    version: 9.8.5
+    official: true
+    description: React Native runtime (legacy architecture).
+  - language: dart
+    registry: pub.dev
+    name: rive
+    url: https://pub.dev/packages/rive
+    install: flutter pub add rive
+    version: 0.14.9
+    official: true
+    description: Rive Flutter runtime.
+  - language: dart
+    registry: pub.dev
+    name: rive_native
+    url: https://pub.dev/packages/rive_native
+    install: flutter pub add rive_native
+    version: 0.1.9
+    official: true
+    description: Rive's native runtime and renderer for Flutter.
+  - language: swift
+    registry: cocoapods
+    name: RiveRuntime
+    url: https://cocoapods.org/pods/RiveRuntime
+    install: pod 'RiveRuntime'
+    official: true
+    description: iOS / macOS / tvOS runtime (also available via Swift Package Manager from rive-ios).
+  - language: kotlin
+    registry: maven-central
+    name: app.rive:rive-android
+    url: https://central.sonatype.com/artifact/app.rive/rive-android
+    install: "implementation 'app.rive:rive-android:11.7.2'"
+    version: 11.7.2
+    official: true
+    description: Android runtime.
+  - language: csharp
+    registry: github
+    name: rive-unity
+    url: https://github.com/rive-app/rive-unity
+    install: "Unity Package Manager: https://github.com/rive-app/rive-unity.git"
+    official: true
+    description: Unity runtime (distributed via UPM git URL, not a public registry).
+  - language: cpp
+    registry: github
+    name: rive-runtime
+    url: https://github.com/rive-app/rive-runtime
+    install: "git clone https://github.com/rive-app/rive-runtime"
+    official: true
+    description: Low-level C++ Rive runtime and renderer (source of all platform runtimes).

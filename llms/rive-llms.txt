@@ -1,0 +1,36 @@
+# Rive
+
+> Rive is an interactive design and animation platform and real-time graphics engine. Designers, animators, and developers create, animate, and code interactive experiences in one place and ship them across every platform via open-source native runtimes. Built around a State Machine design system and a GPU-accelerated vector renderer (up to 120fps), Rive exports a single lightweight .riv file driven at runtime. There is no hosted REST API; the developer surface is the family of first-party runtime SDKs plus data binding, Luau scripting, and CDN share/embed hosting.
+
+Note: Rive publishes an authoritative documentation index at https://rive.app/docs/llms.txt — prefer it for the complete, current page list. This file is an API Evangelist catalog-generated summary of the provider's public surface.
+
+## Docs
+- [Documentation](https://rive.app/docs): Product and runtime documentation.
+- [Runtimes overview](https://rive.app/docs/runtimes): Integrating Rive across platforms.
+- [Data binding](https://rive.app/docs/editor/data-binding/data-binding): Bind view models to state machines at runtime.
+- [Luau scripting](https://rive.app/docs): Scripting API reference for Rive graphics.
+- [State machines](https://rive.app/docs): Interactive animation state machine model.
+- [Marketplace](https://rive.app/marketplace): Community and ready-made Rive files.
+
+## Runtimes (SDKs)
+- [Web (Canvas)](https://www.npmjs.com/package/@rive-app/canvas): npm @rive-app/canvas
+- [Web (WebGL)](https://www.npmjs.com/package/@rive-app/webgl): npm @rive-app/webgl
+- [React](https://www.npmjs.com/package/@rive-app/react-canvas): npm @rive-app/react-canvas
+- [React Native](https://www.npmjs.com/package/@rive-app/react-native): npm @rive-app/react-native
+- [Flutter](https://pub.dev/packages/rive): pub.dev rive
+- [iOS / macOS](https://cocoapods.org/pods/RiveRuntime): CocoaPods RiveRuntime
+- [Android](https://central.sonatype.com/artifact/app.rive/rive-android): Maven Central app.rive:rive-android
+- [Unity](https://github.com/rive-app/rive-unity): UPM git package
+- [C++ runtime](https://github.com/rive-app/rive-runtime): low-level renderer
+
+## Source
+- [GitHub organization](https://github.com/rive-app): All open-source runtimes (MIT).
+
+## Community & Support
+- [Community forum](https://community.rive.app/)
+- [Discord](https://discord.com/invite/FGjmaTr)
+- [Blog](https://rive.app/blog)
+
+## Legal
+- [Terms of Service](https://rive.app/docs/legal/terms-of-service)
+- [Privacy Policy](https://rive.app/docs/legal/privacy-policy)

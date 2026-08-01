@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+host: https://rive.app
+notes: >-
+  Rive is a client-side runtime engine with no hosted API. No /.well-known/
+  discovery documents are published. All probes recorded below returned 404
+  (rive.app) or 403 (editor.rive.app). Absence is valid, expected data; no
+  WellKnown/SecurityTxt pointer is wired because none returned 200.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+other_hosts:
+  - host: https://editor.rive.app
+    path: /.well-known/security.txt
+    status: 403
