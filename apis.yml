@@ -18,6 +18,17 @@ description: >-
   users. Rather than a hosted REST API, Rive's developer surface is its family
   of first-party runtime SDKs plus data binding, Luau scripting, and a CDN for
   share and embed hosting.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
